@@ -12,7 +12,7 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/amnezia-vpn/amneziawg-go/conn"
+	"github.com/andrewz1/amneziawg-go/conn"
 	"golang.org/x/sys/unix"
 )
 
