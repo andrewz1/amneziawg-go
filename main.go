@@ -45,16 +45,6 @@ func warning() {
 	default:
 		return
 	}
-
-	fmt.Fprintln(os.Stderr, "┌──────────────────────────────────────────────────────────────┐")
-	fmt.Fprintln(os.Stderr, "│                                                              │")
-	fmt.Fprintln(os.Stderr, "│       Running amneziawg-go is not required because this      │")
-	fmt.Fprintln(os.Stderr, "│       kernel has first class support for AmneziaWG. For      │")
-	fmt.Fprintln(os.Stderr, "│       information on installing the kernel module,           │")
-	fmt.Fprintln(os.Stderr, "│       please visit:                                          │")
-	fmt.Fprintln(os.Stderr, "| https://github.com/amnezia-vpn/amneziawg-linux-kernel-module │")
-	fmt.Fprintln(os.Stderr, "│                                                              │")
-	fmt.Fprintln(os.Stderr, "└──────────────────────────────────────────────────────────────┘")
 }
 
 func main() {
