@@ -1,6 +1,6 @@
 module github.com/andrewz1/amneziawg-go
 
-go 1.24
+go 1.24.2
 
 require (
 	github.com/tevino/abool/v2 v2.1.0
